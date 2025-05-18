@@ -15,6 +15,8 @@ const app = express();
 
 //Cheking
 
+console.log("process.env.FRONTEND_URL", process.env.FRONTEND_URL)
+
 // Middleware
 app.use(helmet());
 app.use(cors({
